@@ -19,7 +19,7 @@ def get_quote():
     json_data = json.loads(response.text)
     quote = json_data[0]['q'] + ' - ' + json_data[0]['a']
     return quote
-
+  
 @client.event
 async def on_ready():
     print(f'We have logged in as {client}')
