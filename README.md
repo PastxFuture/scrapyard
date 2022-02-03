@@ -1,2 +1,2 @@
 # scrapyard
-# Just another commend through CLI
+# Just another comment through CLI
